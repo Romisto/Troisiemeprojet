@@ -132,9 +132,9 @@ h5 {
 }
 
 .btn-jaime {
-    transition: all 0,5s ease 0s;
+    transition: all 0.5s ease 0s;
     stroke: #363636;
-    stroke-width: 1s;
+    stroke-width: 15;
     color: #ffffff;
 
 }
@@ -162,7 +162,7 @@ footer {
 }
 
 .loader {
-    
+
     border: 5px solid #ffffff; /*light grey */
     border-top: 5px solid var(--primaircolor); /*blue */
     border-radius: 50px;
@@ -368,8 +368,8 @@ header {
     border-top-right-radius: 10px;
     object-fit: cover;
     -o-object-fit: cover;
-    object-position:cover;
-    -o-object-position: cover;
+    object-position:center;
+    -o-object-position: center;
 }
 .restaurant .resto figure figcaption {
    padding: 10px;
@@ -490,7 +490,7 @@ header {
     animation-name: rotateIn;
 }
 
-.card-menu:not():hover .card-menu-btn {
+.card-menu:not(:hover) .card-menu-btn {
     display: flex;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -708,15 +708,15 @@ header {
     from {
         opacity: 0;
         -webkit-transform: rotate3d(0, 0, 1, -200deg);
-        transform: rotate3d(0, 0, 0);
+        transform: rotate3d(0, 0, 1, -200deg);
         -webkit-transform-origin: center;
         transform-origin: center;
     }
 
     to {
         opacity: 1;
-        -webkit-transform: rotate3d(0, 0, 0, 0);
-        transform: rotate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
         -webkit-transform-origin: center;
         transform-origin: center;
     }
