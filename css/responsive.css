@@ -47,6 +47,12 @@
         text-overflow: ellipsis;
         white-space: nowrap;
     }
+    .card-menu .card-menu-titre .soustitre .sous-titre-texte {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-right: 5px;
+    }
     .photo-resto img {
         width: 100%;
         height: 300px;
