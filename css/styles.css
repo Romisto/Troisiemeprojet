@@ -451,6 +451,7 @@ header {
     box-shadow: var(--shadow);
     border-radius: 10px;
     cursor: pointer;
+    overflow: hidden;
 }
 .card-menu .card-menu-btn {
     display:none;
@@ -469,6 +470,8 @@ header {
 /*--- Animation affichage bouton carde des menu  -*/
 .card-menu:hover .card-menu-btn {
     display: flex;
+    width: 75px;
+    height: 60px;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
@@ -506,7 +509,7 @@ header {
 
 .card-menu .card-menu-titre {
     position: relative;
-    width: 95%;
+    width: 100%;
     height: auto;
     padding: 10px;
 }
