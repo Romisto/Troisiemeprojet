@@ -109,9 +109,7 @@ h5 {
 .btn:hover {
     color: #ffffff;
     letter-spacing: 1px;
-    background: var(--secondcolor);
-    background: -webkit-linear-gradient(to top, var(--primaircolor), var(--secondcolor));
-    background:linear-gradient(to top, var(--primairecolor), var(--secondcolor));
+    background-color: var(--secondcolor);
     filter: brightness(1.4);
     -webkit-box-shadow: 4px 7px 16px -1px rgba(0,0,0,.5);
     box-shadow: 4px 7px 16px -1px rgb(0, 0, 0, .5);
@@ -544,29 +542,31 @@ header {
 }
 
 /*-----DISPARAITRE AFFICHAGE  PROGRESSIVEMENT  ------------- */
+
+
+@keyframes fadeOut {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+
+}
 @-webkit-keyframes fadeOut {
     from {
-        opacity: 1;
+        opacity: 1
     }
 
     to {
-        opacity: 0;
-    }
-}
-
-@keyframes fadeout {
-    from {
-        opacity: 1;
-    }
-
-    to {
-        opacity: 0;
+        opacity: 0
     }
 }
 
 .fadeOut {
     -webkit-animation-name: fadeOut;
-    animation-name: fadeOut;
+    animation-name: fadeOut
 }
 
 /*-----AFFICHER DE MANIERE PROGRESSIVE  ------------- */
@@ -725,7 +725,10 @@ header {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp
 }
-
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn
+}
 
 
 /*  FOOTER */
@@ -761,7 +764,7 @@ footer {
     margin-bottom: 5px;
 }
 
-.footer a{
+.footer a {
     color: #ffffff;
 }
 
