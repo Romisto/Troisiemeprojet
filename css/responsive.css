@@ -36,28 +36,52 @@
     .footer .footer-menu { flex-direction: column; }
 
     /*--- Menu --- */
-    .menu-titre { width: 95%; }
-    .menu-detail {
+    .container .menu .menu-detail {
         width: 95%;
         margin: auto;
+      }
+    .menu .menu-titre { width: 100%; }
+    
+    .menu-detail {
+        width: 100%;
+        margin: auto;
     }
-    .card-menu:hover .card-menu-titre .soustitre .sous-titre-texte {
-        width: 220px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-    .card-menu .card-menu-titre .soustitre .sous-titre-texte {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        margin-right: 5px;
-    }
+        
     .photo-resto img {
         width: 100%;
         height: 300px;
         object-fit: cover;
         
+    }
+/*-- tronquer le texte h4  */
+    .card-menu .card-menu-titre h4 {
+        overflow: hidden;
+       text-overflow: ellipsis;
+       white-space: nowrap;
+       margin-right: 5px;
+    }
+
+    /*-- tronquer le texte h4 sur hover */
+    .card-menu:hover .card-menu-titre h4 {
+        overflow: hidden;
+       text-overflow: ellipsis;
+       white-space: nowrap;
+       width: 220px;
+    }
+
+    /*-- tronquer le texte sur le p  */
+    .card-menu .card-menu-titre .soustitre .sous-titre-texte {
+        overflow: hidden;
+       text-overflow: ellipsis;
+       white-space: nowrap;
+       margin-right: 5px;
+    }
+     /*-- tronquer le texte p sur le hover  */
+    .card-menu:hover .card-menu-titre .soustitre .sous-titre-texte {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 220px;
     }
 
 }
