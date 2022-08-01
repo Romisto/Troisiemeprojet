@@ -21,31 +21,26 @@
     .fonctions {
         padding: 30px;
     }
-    .fonction-detail {
+    .container .fonctions .fonction-detail {
         flex-direction: column;
         margin-top: 20px;
     }
-    .cardfonction { width: 100%; }
+    .container .fonctions .fonction-detail .cardfonction { width: 100%; }
 
     /* -- Restaurant  -*/
-    .restaurant .resto { flex-direction: column; }
-    .restaurant .resto figure { width: 100%;}
+    .container .restaurant .resto  { flex-direction: column; }
+    .container .restaurant .resto figure { width: 100%;}
 
     /* footer  --- */
-    .footer {width: 90%; margin-right: auto; }
-    .footer .footer-menu { flex-direction: column; }
+    footer .footer  {width: 90%; margin-right: auto; }
+    footer .footer .footer-menu { flex-direction: column; }
 
     /*--- Menu --- */
     .container .menu .menu-detail {
         width: 95%;
         margin: auto;
       }
-    .menu .menu-titre { width: 100%; }
-    
-    .menu-detail {
-        width: 100%;
-        margin: auto;
-    }
+    .container .menu .menu-titre { width: 95%; }
         
     .photo-resto img {
         width: 100%;
@@ -54,7 +49,7 @@
         
     }
 /*-- tronquer le texte h4  */
-    .card-menu .card-menu-titre h4 {
+.container .menu .card-menu .card-menu-titre h4 {
         overflow: hidden;
        text-overflow: ellipsis;
        white-space: nowrap;
@@ -62,7 +57,7 @@
     }
 
     /*-- tronquer le texte h4 sur hover */
-    .card-menu:hover .card-menu-titre h4 {
+    .container .menu .card-menu:hover .card-menu-titre h4 {
         overflow: hidden;
        text-overflow: ellipsis;
        white-space: nowrap;
@@ -70,14 +65,15 @@
     }
 
     /*-- tronquer le texte sur le p  */
-    .card-menu .card-menu-titre .soustitre .sous-titre-texte {
+    .container .menu .card-menu .card-menu-titre .soustitre .sous-titre-texte {
         overflow: hidden;
        text-overflow: ellipsis;
        white-space: nowrap;
        margin-right: 5px;
     }
+    
      /*-- tronquer le texte p sur le hover  */
-    .card-menu:hover .card-menu-titre .soustitre .sous-titre-texte {
+     .container .menu .card-menu:hover .card-menu-titre .soustitre .sous-titre-texte {
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;

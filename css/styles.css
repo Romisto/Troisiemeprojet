@@ -450,6 +450,7 @@ header {
     background-color: var(--tertiaircolor);
     margin-top: 4px;
 }
+
 .menu-detail-titre {
     margin-top: 40px;
     margin-bottom: 10px;
@@ -784,5 +785,3 @@ footer {
     display: inline-block;
 }
 
-
-/*---- RESPONSIVE ---  */
