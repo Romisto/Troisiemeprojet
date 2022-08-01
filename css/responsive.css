@@ -6,8 +6,7 @@
     .container {
         width: 100%;
     }
-    .btn { width: 60%; }
-
+    
     /*--HEADER ----*/
     .header .btn-left { display: inline-block; }
         
