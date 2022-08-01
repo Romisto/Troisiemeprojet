@@ -1,0 +1,47 @@
+@import "variable.scss";
+
+
+/*  FOOTER */
+footer {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #353535;
+    color: #ffffff;
+        
+    .footer {
+        position: relative;
+        width: 50%;
+        margin: auto;
+
+        .footer-menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        h2 {
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 13px;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        
+         a{
+            color: #ffffff;
+            &:hover {
+                color: $primairecolor50;
+            }
+            span {
+                margin-right: 12px;
+                width: 10px;
+                display: inline-block;
+            }
+        }
+        
+    }
+}
