@@ -330,7 +330,7 @@ footer .footer a span {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
 }
 
@@ -532,6 +532,12 @@ footer {
 .delais-anime1s {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
+  display: block;
+}
+
+.delais-anime2s {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
   display: block;
 }
 
